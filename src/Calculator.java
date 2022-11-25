@@ -12,8 +12,13 @@ public class Calculator {
         return c;
     }
 
-        //change
+   static int remainder (int a, int b){
+       System.out.println(a % b);
+       return a % b;
+   }
 
+
+   //dgdfhtrh
 
     int multiplication(int a, int b){
         int c = a * b;
