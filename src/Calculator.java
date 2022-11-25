@@ -2,6 +2,7 @@ public class Calculator {
 
     public static int addition(int a, int b){
         int c = a + b;
+
         System.out.println(c);
         return c;
     }
@@ -23,4 +24,5 @@ public class Calculator {
         int c = a / b;
         System.out.println(c);
     }
+    //rlghuerkhgueh
 }
