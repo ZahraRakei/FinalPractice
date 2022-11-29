@@ -6,8 +6,9 @@ public class Vehicle {
     static String model;
     static int numOfCylinder;
     static boolean hasRoof;
+    static  int numberOfWheels;
 
-    public Vehicle(String color, String model, int numOfCylinder, boolean hasRoof){
+    public Vehicle(String color, String model, int numOfCylinder, boolean hasRoof, int numberOfWheels){
         this.color = color;
         this.model = model;
         this.numOfCylinder = numOfCylinder;

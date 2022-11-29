@@ -4,7 +4,7 @@ public class Tesla extends Car {
 
 
     public Tesla(String color, String model, int numOfCylinder, boolean hasRoof) {
-        super(color, model, numOfCylinder, hasRoof);
+        super(color, model, numOfCylinder, hasRoof, numberOfWheels);
     }
 
 
