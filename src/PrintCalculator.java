@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PrintCalculator {
 
     public static void main(String[] args) {
@@ -6,5 +8,10 @@ public class PrintCalculator {
         Calculator c = new Calculator();
         c.division(15,3);
         c.multiplication(0,5);
+
+        Cons v = new Cons();
+        System.out.println(v);
+
+        Scanner stdin = new Scanner(System.in);
     }
 }
