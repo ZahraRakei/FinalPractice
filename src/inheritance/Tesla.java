@@ -2,10 +2,18 @@ package inheritance;
 
 public class Tesla extends Car {
 
+    int cc;
+    boolean hasfsd;
+    int price;
 
-    public Tesla(String color, String model, int numOfCylinder, boolean hasRoof) {
-        super(color, model, numOfCylinder, hasRoof, numberOfWheels);
+    public Tesla(String color, String model, int numOfCylinder, boolean hasRoof, int cc, boolean hasfsd, int price, boolean isLuxury) {
+        super(color, model, numOfCylinder, hasRoof, numberOfWheels, isLuxury);
+        this.cc = cc;
+        this.hasfsd = hasfsd;
+        this.price = price;
     }
+
+
 
 
 

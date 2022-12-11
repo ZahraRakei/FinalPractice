@@ -1,5 +1,8 @@
 package dataStructures;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class IntroToDataStructures {
 
     static int number;
@@ -18,6 +21,8 @@ public class IntroToDataStructures {
 
         int[] myIntArray = new int[100];
         myIntArray[55] = 436;
+        List myIntArrayl = new ArrayList<>();
+        myIntArrayl.size();
 
         int[] myIntArray2 = {5, 20,395, 3661, 33, 65, 32, 77};
         myIntArray2[2]=75;

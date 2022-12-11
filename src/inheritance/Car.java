@@ -3,8 +3,11 @@ package inheritance;
 public class Car extends Vehicle{
 
 
-    public Car(String color, String model, int numOfCylinder, boolean hasRoof, int numberOfWheels) {
+    boolean isLuxury;
+
+    public Car(String color, String model, int numOfCylinder, boolean hasRoof, int numberOfWheels, boolean isLuxury) {
         super(color, model, numOfCylinder, hasRoof, numberOfWheels);
+        this.isLuxury = isLuxury;
     }
 
     public  static void steerLeft(){
